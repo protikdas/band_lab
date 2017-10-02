@@ -380,6 +380,11 @@ section ul li:hover {
 	border-bottom: 3px solid #2D2D2D;
 }
 
+.change{
+    transform: rotate(360deg);
+    transition-duration: 5s;
+}
+
 /* .comments-container > h3 {
         font-family: 'LoveMeChainV2MonoBold'; 
         font-weight: bold; 
