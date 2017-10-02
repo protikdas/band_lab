@@ -1,5 +1,6 @@
 /* Background Wallpaper */
 
+
 /* body {
     background: url('./images/Disintegration.jpg') no-repeat center fixed;
     background-size: cover;
@@ -12,9 +13,11 @@
     line-height: 1.0;
 }
 
+
 /* Header Div and Font Style */
+
 .header {
-    width:100vw;
+    width: 100vw;
     padding-left: 2vw;
     background: url('./images/DisintegrationBW.jpg') no-repeat center fixed;
     opacity: 0.55;
@@ -54,34 +57,38 @@
 }
 
 .author {
-    font-family: 'LoveMeChainV2MonoBold'; 
-    font-weight: bold; 
-    font-style: normal; 
+    font-family: 'LoveMeChainV2MonoBold';
+    font-weight: bold;
+    font-style: normal;
     font-size: 2vw;
     float: right;
     color: red;
     margin-top: 10vw;
 }
 
-/* Navbar */
-    .navbar {
-        position: sticky;
-        top: 0px;
-        opacity: .7;
-        z-index: 1;
-        font-family: 'LoveMeChainV2MonoBold'; 
-        font-weight: bold; 
-        font-style: normal; 
-        font-size: 1.5vw;
-    }
 
-    .TheCure {
-        font-family: 'CompHandMedium';
-        font-size: 1.5vw;
-        font-weight: bolder;
-    }
+/* Navbar */
+
+.navbar {
+    position: sticky;
+    top: 0px;
+    opacity: .7;
+    z-index: 1;
+    font-family: 'LoveMeChainV2MonoBold';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 1.5vw;
+}
+
+.TheCure {
+    font-family: 'CompHandMedium';
+    font-size: 1.5vw;
+    font-weight: bolder;
+}
+
 
 /* Image */
+
 .img-band {
     width: 100%;
     opacity: 0.8;
@@ -97,15 +104,17 @@
     /* border: 3px solid yellow; */
 }
 
+
 /* About Section */
+
 .about {
     color: white;
     background-color: black;
     padding: 10px;
     opacity: 0.5;
-    font-family: 'LoveMeChainV2MonoBold'; 
-    font-weight: bold; 
-    font-style: normal; 
+    font-family: 'LoveMeChainV2MonoBold';
+    font-weight: bold;
+    font-style: normal;
     font-size: 1.25vw;
 }
 
@@ -114,14 +123,14 @@
 }
 
 
-/* Album Sizing */ 
+/* Album Sizing */
 
 .albums {
-    width:100vw;
-    background-color:black;
+    width: 100vw;
+    background-color: black;
 }
 
-.albums > img {
+.albums>img {
     /* box-sizing: border-box; */
     margin: 3.5% 3.5% 1% 3.5%;
     padding: 20px;
@@ -129,9 +138,9 @@
     background: url('./images/DisintegrationBW.jpg') no-repeat center fixed;
 }
 
-.albums > h3 {
-    font-family: 'LoveMeChainV2MonoBold'; 
-    font-weight: bold; 
+.albums>h3 {
+    font-family: 'LoveMeChainV2MonoBold';
+    font-weight: bold;
     font-size: 2vw;
     margin: 0px;
     padding: 3.5% 0 0 0;
@@ -139,9 +148,9 @@
     color: white;
 }
 
-.albums > div {
-    font-family: 'LoveMeChainV2MonoBold'; 
-    font-weight: bold; 
+.albums>div {
+    font-family: 'LoveMeChainV2MonoBold';
+    font-weight: bold;
     font-size: 1.5vw;
     color: white;
     display: inline-block;
@@ -165,9 +174,9 @@ img.album1 {
     background-color: black;
 }
 
-.album-container > h3 {
-    font-family: 'LoveMeChainV2MonoBold'; 
-    font-weight: bold; 
+.album-container>h3 {
+    font-family: 'LoveMeChainV2MonoBold';
+    font-weight: bold;
     font-size: 2vw;
     margin: 0px;
     padding: 3.5% 0;
@@ -175,9 +184,9 @@ img.album1 {
     color: white;
 }
 
-.album > h4 {
-    font-family: 'LoveMeChainV2MonoBold'; 
-    font-weight: bold; 
+.album>h4 {
+    font-family: 'LoveMeChainV2MonoBold';
+    font-weight: bold;
     font-size: 1.5vw;
     margin: 0px;
     padding: 3.5% 0 7% 0;
@@ -185,7 +194,7 @@ img.album1 {
     color: #A5A5A5;
 }
 
-.album > img {
+.album>img {
     box-sizing: border-box;
     padding: 20px;
     background: url('./images/DisintegrationBW.jpg') no-repeat center fixed;
@@ -195,149 +204,183 @@ img.album1 {
     width: 80%
 }
 
-
 .albumTwo {
     width: 80%
 }
-
 
 .albumThree {
     width: 80%
 }
 
 
-
-
 /* Header, Navbar Font Size increase for Small Screens */
-/* Adjust Image Size */
-@media screen and (max-width: 768px) {
 
+
+/* Adjust Image Size */
+
+@media screen and (max-width: 768px) {
     .l-header {
         font-size: 14vw;
     }
-
     .xl-header {
         font-size: 19vw;
     }
-
-
     .sm-header {
         font-size: 16vw;
     }
-
     .xs-header {
         font-size: 11vw;
     }
-
     .header {
         text-align: center;
     }
-
     .navbar {
         font-size: 4vw;
     }
-
     .TheCure {
         font-size: 4vw;
     }
-
     .img-band {
         width: 80%;
         position: relative;
-        top:50%;
+        top: 50%;
         transform: translateY(0%);
     }
 }
 
-
 @media screen and (max-width: 1024px) {
-    
-        .l-header {
-            font-size: 14vw;
-        }
-    
-        .xl-header {
-            font-size: 19vw;
-        }
-    
-    
-        .sm-header {
-            font-size: 16vw;
-        }
-    
-        .xs-header {
-            font-size: 11vw;
-        }
-    
-        .header {
-            text-align: center;
-        }
-    
-        .navbar {
-            font-size: 4vw;
-        }
-        
-        .TheCure {
-            font-size: 4vw;
-        }
-    
-        .img-band {
-            width: 60%;
-            position: relative;
-            top:50%;
-            transform: translateY(0%);
-        }
+    .l-header {
+        font-size: 14vw;
     }
+    .xl-header {
+        font-size: 19vw;
+    }
+    .sm-header {
+        font-size: 16vw;
+    }
+    .xs-header {
+        font-size: 11vw;
+    }
+    .header {
+        text-align: center;
+    }
+    .navbar {
+        font-size: 4vw;
+    }
+    .TheCure {
+        font-size: 4vw;
+    }
+    .img-band {
+        width: 60%;
+        position: relative;
+        top: 50%;
+        transform: translateY(0%);
+    }
+}
 
 @media screen and (max-width: 500px) {
-    
-        .l-header {
-            font-size: 16vw;
-        }
-    
-        .xl-header {
-            font-size: 21vw;
-        }
-    
-    
-        .sm-header {
-            font-size: 18vw;
-        }
-    
-        .xs-header {
-            font-size: 13vw;
-        }
-
-        .header {
-            text-align: center;
-        }
-
-        .navbar {
-            font-size: 6vw;
-        }
-
-        .TheCure {
-            font-size: 6vw;
-        }
-
-        .img-band {
-            width: 70%;
-            position: relative;
-            top:50%;
-            transform: translateY(0%);
-        }
-
+    .l-header {
+        font-size: 16vw;
     }
-    
-
-    .comments-container {
-        width: 100%;
+    .xl-header {
+        font-size: 21vw;
+    }
+    .sm-header {
+        font-size: 18vw;
+    }
+    .xs-header {
+        font-size: 13vw;
+    }
+    .header {
+        text-align: center;
+    }
+    .navbar {
+        font-size: 6vw;
+    }
+    .TheCure {
+        font-size: 6vw;
+    }
+    .img-band {
+        width: 70%;
         position: relative;
-        padding: 20px;
-        margin: 2vw;
+        top: 50%;
+        transform: translateY(0%);
     }
+}
 
-    .comments-container > h3 {
+.comments {
+    width: 100%;
+    position: relative;
+    padding: 10vw;
+    margin: 200px auto;
+}
+
+.comments > h3 {
+    font-family: 'LoveMeChainV2MonoBold';
+    font-weight: bold;
+    font-size: 2vw;
+    margin: 0px;
+    text-align: center;
+    color: #2D2D2D;
+    padding: 15% 0 2% 0;
+
+}
+
+section {
+    width: 400px;
+    margin: 0 auto;
+    font-family: 'LoveMeChainV2MonoBold';
+    font-size: 1.25em;
+}
+
+section textarea {
+	width: 100%;
+	height: 70px;
+	padding: 5px;
+	outline: none;
+	font-size: 100%;
+	resize: vertical;
+	margin-bottom: 20px;
+	border: 1px solid grey;
+	border-bottom: 4px solid #2D2D2D;
+}
+
+section button {
+	border: 0;
+	width:	30%;
+	color: #fff;
+	height: 35px;
+	float: right;
+	outline: none;
+	cursor: pointer;
+	font-weight: 700;
+	background-color: grey;
+    border-bottom: 3px solid #2D2D2D;
+    margin: 0 auto;
+}
+
+section button:hover {
+	background-color: black;
+	border-bottom: 3px solid #2D2D2D;
+}
+
+section ul {
+	margin-top: 60px;
+	list-style: none;
+	padding-left: 0px;
+}
+
+section ul li {
+	padding: 10px 10px;
+  word-wrap: break-word;
+	border-bottom: 3px solid grey;
+}
+
+section ul li:hover {
+	border-bottom: 3px solid #2D2D2D;
+}
+
+/* .comments-container > h3 {
         font-family: 'LoveMeChainV2MonoBold'; 
         font-weight: bold; 
         font-size: 1.5vw;
@@ -345,7 +388,11 @@ img.album1 {
         padding: 3.5% 0 7% 0;
         text-align: center;
         color: blue;
-    }
+    } */
 
-    
 
+/* body {
+        padding: 0;
+        margin: 0 auto;
+        background: white;
+    } */
