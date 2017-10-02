@@ -1,0 +1,351 @@
+/* Background Wallpaper */
+
+/* body {
+    background: url('./images/Disintegration.jpg') no-repeat center fixed;
+    background-size: cover;
+    line-height: 1.2;
+} */
+
+.bg-container {
+    background: url('./images/Disintegration.jpg') no-repeat center fixed;
+    background-size: cover;
+    line-height: 1.0;
+}
+
+/* Header Div and Font Style */
+.header {
+    width:100vw;
+    padding-left: 2vw;
+    background: url('./images/DisintegrationBW.jpg') no-repeat center fixed;
+    opacity: 0.55;
+    display: block;
+}
+
+.l-header {
+    font-family: 'CompHandMedium';
+    font-weight: bolder;
+    font-size: 9vw;
+    color: white;
+    text-shadow: 0.5vw 0.5vw blue;
+}
+
+.xl-header {
+    font-family: 'CompHandMedium';
+    font-weight: bolder;
+    font-size: 14vw;
+    color: yellow;
+    text-shadow: 0.7vw 0.7vw blue;
+}
+
+.sm-header {
+    font-family: 'CompHandMedium';
+    font-weight: bolder;
+    font-size: 11vw;
+    color: yellow;
+    text-shadow: 0.6vw 0.6vw red;
+}
+
+.xs-header {
+    font-family: 'CompHandMedium';
+    font-weight: bolder;
+    font-size: 6vw;
+    color: white;
+    text-shadow: 0.4vw 0.4vw red;
+}
+
+.author {
+    font-family: 'LoveMeChainV2MonoBold'; 
+    font-weight: bold; 
+    font-style: normal; 
+    font-size: 2vw;
+    float: right;
+    color: red;
+    margin-top: 10vw;
+}
+
+/* Navbar */
+    .navbar {
+        position: sticky;
+        top: 0px;
+        opacity: .7;
+        z-index: 1;
+        font-family: 'LoveMeChainV2MonoBold'; 
+        font-weight: bold; 
+        font-style: normal; 
+        font-size: 1.5vw;
+    }
+
+    .TheCure {
+        font-family: 'CompHandMedium';
+        font-size: 1.5vw;
+        font-weight: bolder;
+    }
+
+/* Image */
+.img-band {
+    width: 100%;
+    opacity: 0.8;
+    position: relative;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.container {
+    width: 80vw;
+    /* border: 3px solid yellow; */
+}
+
+/* About Section */
+.about {
+    color: white;
+    background-color: black;
+    padding: 10px;
+    opacity: 0.5;
+    font-family: 'LoveMeChainV2MonoBold'; 
+    font-weight: bold; 
+    font-style: normal; 
+    font-size: 1.25vw;
+}
+
+.about-header {
+    font-size: 2vw;
+}
+
+
+/* Album Sizing */ 
+
+.albums {
+    width:100vw;
+    background-color:black;
+}
+
+.albums > img {
+    /* box-sizing: border-box; */
+    margin: 3.5% 3.5% 1% 3.5%;
+    padding: 20px;
+    width: 24%;
+    background: url('./images/DisintegrationBW.jpg') no-repeat center fixed;
+}
+
+.albums > h3 {
+    font-family: 'LoveMeChainV2MonoBold'; 
+    font-weight: bold; 
+    font-size: 2vw;
+    margin: 0px;
+    padding: 3.5% 0 0 0;
+    text-align: center;
+    color: white;
+}
+
+.albums > div {
+    font-family: 'LoveMeChainV2MonoBold'; 
+    font-weight: bold; 
+    font-size: 1.5vw;
+    color: white;
+    display: inline-block;
+    width: 33%;
+    text-align: center;
+    padding-bottom: 3.5%;
+}
+
+img.album1 {
+    margin-left: 7%;
+}
+
+
+/* Album Container Div */
+
+.album-container {
+    background-color: black;
+}
+
+.album {
+    background-color: black;
+}
+
+.album-container > h3 {
+    font-family: 'LoveMeChainV2MonoBold'; 
+    font-weight: bold; 
+    font-size: 2vw;
+    margin: 0px;
+    padding: 3.5% 0;
+    text-align: center;
+    color: white;
+}
+
+.album > h4 {
+    font-family: 'LoveMeChainV2MonoBold'; 
+    font-weight: bold; 
+    font-size: 1.5vw;
+    margin: 0px;
+    padding: 3.5% 0 7% 0;
+    text-align: center;
+    color: #A5A5A5;
+}
+
+.album > img {
+    box-sizing: border-box;
+    padding: 20px;
+    background: url('./images/DisintegrationBW.jpg') no-repeat center fixed;
+}
+
+.albumOne {
+    width: 80%
+}
+
+
+.albumTwo {
+    width: 80%
+}
+
+
+.albumThree {
+    width: 80%
+}
+
+
+
+
+/* Header, Navbar Font Size increase for Small Screens */
+/* Adjust Image Size */
+@media screen and (max-width: 768px) {
+
+    .l-header {
+        font-size: 14vw;
+    }
+
+    .xl-header {
+        font-size: 19vw;
+    }
+
+
+    .sm-header {
+        font-size: 16vw;
+    }
+
+    .xs-header {
+        font-size: 11vw;
+    }
+
+    .header {
+        text-align: center;
+    }
+
+    .navbar {
+        font-size: 4vw;
+    }
+
+    .TheCure {
+        font-size: 4vw;
+    }
+
+    .img-band {
+        width: 80%;
+        position: relative;
+        top:50%;
+        transform: translateY(0%);
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    
+        .l-header {
+            font-size: 14vw;
+        }
+    
+        .xl-header {
+            font-size: 19vw;
+        }
+    
+    
+        .sm-header {
+            font-size: 16vw;
+        }
+    
+        .xs-header {
+            font-size: 11vw;
+        }
+    
+        .header {
+            text-align: center;
+        }
+    
+        .navbar {
+            font-size: 4vw;
+        }
+        
+        .TheCure {
+            font-size: 4vw;
+        }
+    
+        .img-band {
+            width: 60%;
+            position: relative;
+            top:50%;
+            transform: translateY(0%);
+        }
+    }
+
+@media screen and (max-width: 500px) {
+    
+        .l-header {
+            font-size: 16vw;
+        }
+    
+        .xl-header {
+            font-size: 21vw;
+        }
+    
+    
+        .sm-header {
+            font-size: 18vw;
+        }
+    
+        .xs-header {
+            font-size: 13vw;
+        }
+
+        .header {
+            text-align: center;
+        }
+
+        .navbar {
+            font-size: 6vw;
+        }
+
+        .TheCure {
+            font-size: 6vw;
+        }
+
+        .img-band {
+            width: 70%;
+            position: relative;
+            top:50%;
+            transform: translateY(0%);
+        }
+
+    }
+    
+
+    .comments-container {
+        width: 100%;
+        position: relative;
+        padding: 20px;
+        margin: 2vw;
+    }
+
+    .comments-container > h3 {
+        font-family: 'LoveMeChainV2MonoBold'; 
+        font-weight: bold; 
+        font-size: 1.5vw;
+        margin: 0px;
+        padding: 3.5% 0 7% 0;
+        text-align: center;
+        color: blue;
+    }
+
+    
+
